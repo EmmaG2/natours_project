@@ -80,6 +80,9 @@ body {
 .u-center-text {
   text-align: center; }
 
+.u-margin-bottom-80 {
+  margin-bottom: 8rem; }
+
 .btn:visited, .btn:link {
   text-transform: uppercase;
   text-decoration: none;
@@ -126,8 +129,6 @@ body {
 
 .row {
   max-width: 114rem;
-  background-color: #fff;
-  color: #fff;
   margin: 0 auto;
   padding: 1rem; }
   .row:not(:last-child) {
@@ -137,7 +138,6 @@ body {
     display: table;
     clear: both; }
   .row [class^="col-"] {
-    background-image: linear-gradient(to right bottom, rgba(231, 0, 0, 0.85), rgba(227, 0, 102, 0.85));
     float: left;
     min-height: 4.3rem; }
     .row [class^="col-"]:not(:last-child) {

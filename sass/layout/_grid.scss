@@ -1,7 +1,5 @@
 .row {
     max-width: $grid-width;
-    background-color: $color-white;
-    color: $color-white;
     margin: 0 auto;
     padding: 1rem;
 
@@ -12,7 +10,6 @@
     @include clearfix;
 
     [class^="col-"] {
-        background-image: linear-gradient(to right bottom, rgba(231, 0, 0, 0.85), rgba(227, 0, 102, 0.85));
         float: left;
         min-height: 4.3rem;
 
